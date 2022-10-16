@@ -1,0 +1,226 @@
+
+  @import url("https://use.typekit.net/gik0jlh.css");
+
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: poppins, sans-serif;
+    height: 100vh;
+}
+
+
+@media  (max-width:700px) {
+    
+    
+    header {
+        
+    
+        padding-top: 40px;
+    
+        h1 {
+            font-size: 36px;
+            font-weight: 700;
+            color: #000;
+            
+        }
+    
+        h5 {
+            margin-top: 20px;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 27px;
+        }
+    
+        p {
+            font-size: 14px;
+            line-height: 21px;
+            font-weight: 400;
+        }
+    }
+    
+    
+    .sectionPhotos {
+        padding: 20px;
+        background-color:#FAFAFA;
+        margin-top: 50px;
+        
+    
+        img {
+            width: 150px;
+        }
+    
+        .contentImage1 {
+            p {
+                font-size: 14px;
+                font-weight: 700;
+                
+                margin-top: 5px;
+            }
+        }
+        
+        .contentImage2 {
+            padding-top: 40px;
+            
+            p {
+                font-size: 14px;
+                font-weight: 700;
+                
+                margin-top: 5px;
+            }
+        }
+    }
+    
+    footer {
+    
+        text-align: center;
+        padding: 20px;
+        
+    
+        .footerDesc {
+            font-size: 14px;
+            color: #A9A9A9;
+        }
+    }
+}
+
+@media (min-width:768px) {
+    header {
+        
+        
+        padding: 40px;
+    
+        h1 {
+            font-size: 56px;
+            font-weight: 700;
+            color: #000;
+            
+        }
+    
+        h5 {
+            margin-top: 20px;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 70px;
+        }
+    
+        p {
+            font-size: 24px;
+            line-height: 31px;
+            font-weight: 400;
+            width: 600px;
+        }
+    }
+
+
+    .sectionPhotos {
+        padding: 20px;
+        background-color:#FAFAFA;
+        margin-top: 50px;
+        
+    
+        img {
+            width: 250px;
+        }
+    
+        .contentImage1 {
+            p {
+                font-size: 25px;
+                font-weight: 700;
+                
+                margin-top: 5px;
+            }
+        }
+        
+        .contentImage2 {
+            padding-top: 40px;
+            
+            p {
+                font-size: 25px;
+                font-weight: 700;
+                
+                margin-top: 5px;
+            }
+        }
+    }
+
+    footer {
+    
+        text-align: center;
+        padding: 20px;
+        
+    
+        .footerDesc {
+            font-size: 24px;
+            color: #A9A9A9;
+        }
+    }
+}
+
+
+@media (min-width:1024px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px ;
+        
+        h1 {
+            font-size: 46px;
+            font-weight: 700;
+            color: #000;
+            
+        }
+        h5 {
+            margin-top: 20px;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 70px;
+            width: 600px;
+        }
+    }
+
+
+    .sectionPhotos {
+        padding: 20px;
+        background-color:#FAFAFA;
+        margin-top: 50px;
+
+        display: flex;
+       
+       
+        
+    
+        img {
+            width: 260px;
+        }
+    
+        .contentImage1 {
+            
+            p {
+                font-size: 25px;
+                font-weight: 700;
+                
+                margin-top: 5px;
+            }
+        }
+        
+        .contentImage2 {
+            
+            
+            p {
+                font-size: 25px;
+                font-weight: 700;
+                
+                margin-top: 5px;
+            }
+        }
+
+       .desktopImg3 , .desktopImg4 {
+        margin-top: 70px;
+       }
+    }
+}

@@ -1,0 +1,155 @@
+@import url("https://use.typekit.net/gik0jlh.css");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: poppins, sans-serif;
+  height: 100vh;
+}
+
+@media (max-width: 700px) {
+  header {
+    padding-top: 40px;
+  }
+  header h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+  }
+  header h5 {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  header p {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+  }
+  .sectionPhotos {
+    padding: 20px;
+    background-color: #FAFAFA;
+    margin-top: 50px;
+  }
+  .sectionPhotos img {
+    width: 150px;
+  }
+  .sectionPhotos .contentImage1 p {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 5px;
+  }
+  .sectionPhotos .contentImage2 {
+    padding-top: 40px;
+  }
+  .sectionPhotos .contentImage2 p {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 5px;
+  }
+  footer {
+    text-align: center;
+    padding: 20px;
+  }
+  footer .footerDesc {
+    font-size: 14px;
+    color: #A9A9A9;
+  }
+}
+@media (min-width: 768px) {
+  header {
+    padding: 40px;
+  }
+  header h1 {
+    font-size: 56px;
+    font-weight: 700;
+    color: #000;
+  }
+  header h5 {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 70px;
+  }
+  header p {
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 400;
+    width: 600px;
+  }
+  .sectionPhotos {
+    padding: 20px;
+    background-color: #FAFAFA;
+    margin-top: 50px;
+  }
+  .sectionPhotos img {
+    width: 250px;
+  }
+  .sectionPhotos .contentImage1 p {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 5px;
+  }
+  .sectionPhotos .contentImage2 {
+    padding-top: 40px;
+  }
+  .sectionPhotos .contentImage2 p {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 5px;
+  }
+  footer {
+    text-align: center;
+    padding: 20px;
+  }
+  footer .footerDesc {
+    font-size: 24px;
+    color: #A9A9A9;
+  }
+}
+@media (min-width: 1024px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+  }
+  header h1 {
+    font-size: 46px;
+    font-weight: 700;
+    color: #000;
+  }
+  header h5 {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 70px;
+    width: 600px;
+  }
+  .sectionPhotos {
+    padding: 20px;
+    background-color: #FAFAFA;
+    margin-top: 50px;
+    display: flex;
+  }
+  .sectionPhotos img {
+    width: 260px;
+  }
+  .sectionPhotos .contentImage1 p {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 5px;
+  }
+  .sectionPhotos .contentImage2 p {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 5px;
+  }
+  .sectionPhotos .desktopImg3, .sectionPhotos .desktopImg4 {
+    margin-top: 70px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
